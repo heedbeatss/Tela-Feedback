@@ -28,11 +28,11 @@ body {
   padding-left: 50%;
 }
 .card {
-  width: 80vw;
-  height: 35vh;
+  width: 60%;
+  height: 40%;
   padding: 2%;
   padding-bottom: 2%;
-  margin-top: 15%;
+  margin-top: 10%;
   background-color: #070F2B;
   display: flex;
   flex-direction: column;
@@ -122,6 +122,8 @@ body {
   background-color: #8576FF; /* Cor de fundo para o botão Submit */
   color: #ffffff; /* Cor do texto para o botão Submit */
 }
+
+
 
 /* .btn__cancel {
   cursor: pointer;
