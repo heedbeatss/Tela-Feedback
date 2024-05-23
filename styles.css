@@ -3,134 +3,114 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color:#9290C3;
+  background-color: #9290C3;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.x {
-  width: 15%;
-  height: 120%;
-  background-color: #070F2B;
-  color: antiquewhite;
-  border-radius: 15%;
-  cursor: pointer;
-  padding-bottom: 1%;
-  
+  font-family: Arial, sans-serif; /* Alterei a fonte para uma fonte mais comum */
 }
 
 .x__btn {
-  width: 40%;
-  height: auto;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
-  padding-left: 50%;
 }
+
+.x {
+  width: 40px; /* Reduzi o tamanho do botão X */
+  height: 40px; /* Reduzi o tamanho do botão X */
+  background-color: #070F2B;
+  color: antiquewhite;
+  border: none;
+  border-radius: 50%; /* Fiz o botão X redondo */
+  cursor: pointer;
+  font-size: 1.5rem; /* Ajustei o tamanho da fonte */
+}
+
 .card {
   width: 60%;
-  height: 40%;
+  height: auto; /* Ajustei a altura automaticamente */
   padding: 2%;
-  padding-bottom: 2%;
   margin-top: 10%;
   background-color: #070F2B;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 2%;
-  box-shadow: 2px 2px 10px 2px;
+  border-radius: 10px; /* Ajustei a borda para um valor mais suave */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajustei o sombreamento */
 }
 
-.card > h1 {
-  font-family: sans-serif;
+.card h1 {
   color: antiquewhite;
-  font-size: larger;
-  padding-left: 2%;
+  font-size: 1.5rem; /* Ajustei o tamanho da fonte */
   text-align: center;
-}
-
-.card > h1:hover {
-  color: silver;
 }
 
 .buttons__rating {
   display: flex;
   justify-content: center;
-  gap: 1%;
-  width: 90%;
-  padding: 2%;
+  gap: 10px; /* Aumentei o espaço entre os botões */
+  margin-top: 20px; /* Aumentei a margem superior */
 }
 
 .btn {
-  width: 7vw;
-  height: 5vh;
+  width: 40px; /* Reduzi o tamanho dos botões */
+  height: 40px; /* Reduzi o tamanho dos botões */
   background-color: #070F2B;
   color: antiquewhite;
-  border-radius: 25%;
-  cursor: pointer;
-  box-shadow: #8576FF 2px 1px 1px 1px;
   border: none;
+  border-radius: 50%; /* Fiz os botões redondos */
+  cursor: pointer;
+  font-size: 1rem; /* Ajustei o tamanho da fonte */
+  transition: background-color 0.3s; /* Adicionei uma transição suave */
 }
 
-.btn:hover {
-  background-color: #8576FF;
-  width: 8vw;
-  height: 5vh;
-  box-shadow: #9290C3 1px 1px 1px 1px;
-}
-
+.btn:hover,
 .ativo {
-  background-color: #8576FF;
-  width: 8vw;
-  height: 5vh;
-  
+  background-color: #8576FF; /* Alterei a cor de fundo quando hover ou ativo */
 }
 
 .rating__text {
   width: 90%;
-  height: auto;
   color: antiquewhite;
-  font-size: small;
+  font-size: 0.8rem; /* Ajustei o tamanho da fonte */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  margin-top: 10px; /* Aumentei a margem superior */
 }
 
 .options {
+  width: 90%;
+  margin-top: 20px; /* Aumentei a margem superior */
   display: flex;
   justify-content: space-between;
-  /* gap: 85%; */
-  width: 90%;
-  margin-top: 1%;
 }
 
 .btn__cancel,
 .btn__submit {
-  padding: 10px 20px; /* Adiciona um padding interno */
+  padding: 10px 20px;
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  font-size: 1rem; /* Ajustei o tamanho da fonte */
+  transition: background-color 0.3s; /* Adicionei uma transição suave */
 }
 
 .btn__cancel {
-  background-color: #FF5757; /* Cor de fundo para o botão Cancel */
-  color: #ffffff; /* Cor do texto para o botão Cancel */
+  background-color: #FF5757;
+  color: #ffffff;
 }
 
 .btn__submit {
-  background-color: #8576FF; /* Cor de fundo para o botão Submit */
-  color: #ffffff; /* Cor do texto para o botão Submit */
-}
-
-
-
-/* .btn__cancel {
-  cursor: pointer;
-}
-
-.btn__submit {
-  color: antiquewhite;
   background-color: #8576FF;
-  cursor: pointer;
-} */
+  color: #ffffff;
+}
+
+.btn__cancel:hover {
+  background-color: #FF3333; /* Alterei a cor de fundo do botão Cancel ao passar o mouse */
+}
+
+.btn__submit:hover {
+  background-color: #6F51FF; /* Alterei a cor de fundo do botão Submit ao passar o mouse */
+}
