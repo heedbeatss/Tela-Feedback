@@ -1,9 +1,9 @@
-README - Aplicação de Avaliação de Feedback
+# README - Aplicação de Avaliação de Feedback
 
 Esta aplicação simples permite que os usuários avaliem a probabilidade de recomendar o FrontendPro para outras pessoas. Os usuários podem selecionar uma pontuação de 1 a 10 e, em seguida, optar por enviar ou cancelar a avaliação.
 
 
-Funcionalidades:
+# Funcionalidades:
 
 Os usuários podem selecionar uma pontuação de 1 a 10 clicando nos botões correspondentes.
 
@@ -14,7 +14,7 @@ Os usuários podem cancelar a avaliação clicando no botão "Cancelar".
 Os usuários podem fechar a janela clicando no botão "x" no canto superior direito.
 
 
-Tecnologias Utilizadas:
+# Tecnologias Utilizadas:
 
 HTML: Estruturação do conteúdo da página.
 
@@ -23,7 +23,7 @@ CSS: Estilização dos elementos HTML para uma melhor experiência do usuário.
 JavaScript: Implementação das funcionalidades interativas da aplicação.
 
 
-Como Usar:
+# Como Usar:
 
 Abra o arquivo index.html em um navegador da web.
 
@@ -36,7 +36,7 @@ Para enviar a avaliação, clique no botão "Enviar".
 Também é possível utilizar a aplicação pelo link do vercel.
 
 
-Melhorias Futuras:
+# Melhorias Futuras:
 
 Adição de um formulário para coletar comentários ou sugestões adicionais dos usuários.
 
